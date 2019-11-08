@@ -24,6 +24,6 @@ react bootstrap
 
 ## Planning and Development Process 
 
-for future i'm planning to enhnance the ux and make complete website .
+for the future, I'm planning to enhance the UX and make complete website.
 ### Unsolved problems
 set state for switch between channel
