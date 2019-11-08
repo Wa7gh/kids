@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.main{
+  background-image: url("https://trinityemployment.com/wp-content/uploads/2018/12/Trinity-happy-kids-background.jpg");
+  height: 28rem;
+   background-size: cover;
+ border-radius: 0% 
+}
+.logo{
+  float: left;
+  
+}
+.rainbow-button{
+  
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:20vw;
+  height:8vw;
+
+}
+
+.Cardsacand{
+
+  background-image: url("https://trinityemployment.com/wp-content/uploads/2018/12/Trinity-happy-kids-background.jpg");
+  background-size: 4700px ;
+  height: 33rem;
+  border-top: 10px solid rgba(255, 255, 255, 0.927);
+  border-radius: 0%;
+
+     
+}
+.middel{
+  margin-top: 20px;
+  float: Right;
+}
+.ImgHome{
+  position: relative;
+}
+.InHome{
+  width: 397px;
+  height: 251px;
+  position: absolute;
+  top: 96px;
+  margin-left: 120px;
+ 
+}
+
+.Description{
+
+  border-top: 10px solid rgba(255, 255, 255, 0.927);
+  border-radius: 0%;
+  /* height: 33rem; */
+}
+.text{
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 330%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* width: 7px; */
+}
+
+/* @media only screen and (max-width: 949px) and (min-width: 550px)
+.text1{
+    font-size: 2.5rem;
+} */
+.text1{
+  margin-top: 45px;
+  color:white;
+  
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 300%;
+}
+
+
+@media only screen and (max-width: 949px) and (min-width: 550px) {
+  .text1 {
+    font-size: 100%;
+  }
+}
+.left{
+  float: Right;
+}
+.contenerpord {
+
+  display: flex;
+  margin-bottom: 40px; 
+  background: rgba(141, 212, 245, 0.397);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-image: url("./Component/Divbd.png");
+ 
+}
+.left h2 ,h4 ,h3 ,h5 {
+text-align: center;
+cursor: default;
+
+}
+.rihgt{
+  height: 504px;
+  width: 40%;
+  margin-left: 3% ;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+
+}
+.Instructors{
+  height: 160px;
+  width: 250px;
+  border: 1px solid rgba(55, 53, 53, 0) ;
+  border-radius: 1px;
+   background:  rgba(63, 62, 62, 0);
+ 
+
+}
+.namebox{
+/* margin: 10px 0px; */
+margin-top:10px ;
+height: 110px;
+width: 250px;
+justify-content: center;
+font-family: 'Noto Sans', sans-serif;
+border: 1px solid rgba(247, 247, 247, 0.064);
+border-radius: 1px;
+/* background: red; /* For browsers that do not support gradients */
+/* background: -webkit-linear-gradient(left, orange , green, red, blue, violet);  */
+/* For Safari 5.1 to 6.0 */
+/* background: -o-linear-gradient(right, orange, green, red, blue, violet);  */
+/* For Opera 11.1 to 12.0 */
+/* background: -moz-linear-gradient(right, orange, green, red, blue, violet);  */
+/* For Firefox 3.6 to 15 */
+/* background: linear-gradient(to right, orange , green, red, blue, violet);  */
+background: linear-gradient(124deg, #3b1de8, #e8b71d, #1de840, #1ddde8, #2b1de8, #29242970);
+background-size: 180% 180%;
+
+
+}
+.namebox:hover{
+background: rgba(219, 241, 237, 0.342);
+color: #0b010f;
+
+  }
+
+  img{
+
+      margin: 10px;
+  }
+
+.coror {
+  color: rgb(241, 243, 242);
+  
+  margin-top:10px;
+  font-size: 18px;
+
+}
+
+.slectdoll{
+  size: 20px;
+}
+.corors {
+  color: #0b010f;
+
+}
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  
+  font-family: 'Noto Sans', sans-serif;
+  align-items: flex-end; 
+   /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(69, 67, 67);
+   color:white;
+   
+}
+p{
+  margin: 0px;
+}
+
+.back{
+  margin-left: 1px;
+}
+.imgback:hover {
+  background-color: yellow;
+}
